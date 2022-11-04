@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HarezaActivity"
+    tools:context=".DinarActivity"
     android:orientation="vertical"
     android:background="#f5f5f5"
     android:paddingHorizontal="30dp"
@@ -44,7 +44,7 @@
             android:layout_below="@+id/img"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/poppins_bold"
-            android:text="Hareza Yoan Kristianto"
+            android:text="Dinar Karibianita"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="25dp"
@@ -72,7 +72,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/poppins_bold"
                 android:textColor="@color/black"
-                android:text="harezayoan@gmail.com"
+                android:text="karibianitadinar@gmail.com"
                 android:textSize="16dp"
                 android:textStyle="bold" />
 
@@ -129,7 +129,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/poppins_bold"
                 android:textColor="@color/black"
-                android:text="Banaran, Matesih"
+                android:text="Surakarta"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -148,7 +148,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/poppins_bold"
                 android:textColor="@color/black"
-                android:text="2 Juni 2002"
+                android:text="10 Maret 2003"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 

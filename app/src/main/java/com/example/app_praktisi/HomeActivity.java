@@ -23,6 +23,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         dewaButton = findViewById(R.id.dewaButton);
         dewaButton.setOnClickListener(this);
+        
+        dinarButton = findViewById(R.id.dinarButton);
+        dinarButton.setOnClickListener(this);
+
     }
 
     @Override
@@ -32,9 +36,15 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent = new Intent(this, HarezaActivity.class);
                 startActivity(intent);
                 break;
+
             case R.id.dewaButton:
                 Intent intentt = new Intent(this, DewaActivity.class);
                 startActivity(intentt);
+
+            case R.id.dinarButton:
+                Intent intent2 = new Intent(this, DinarActivity.class);
+                startActivity(intent2);
+
                 break;
         }
 
