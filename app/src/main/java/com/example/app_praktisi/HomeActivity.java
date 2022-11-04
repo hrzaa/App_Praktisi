@@ -20,6 +20,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         harezaButton = findViewById(R.id.harezaButton);
         harezaButton.setOnClickListener(this);
+        dinarButton = findViewById(R.id.dinarButton);
+        dinarButton.setOnClickListener(this);
     }
 
     @Override
@@ -28,6 +30,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.harezaButton:
                 Intent intent = new Intent(this, HarezaActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.dinarButton:
+                Intent intent2 = new Intent(this, DinarActivity.class);
+                startActivity(intent2);
                 break;
         }
 
