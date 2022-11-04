@@ -17,8 +17,13 @@
             android:name=".DinarActivity"
             android:exported="false" />
         <activity
+            android:name=".DewaActivity"
+            android:exported="false" />
+        <activity
             android:name=".HarezaActivity"
-            android:exported="false" /> <!-- membuat halaman login menjadi halaman utama -->
+            android:exported="false" /> 
+        
+        <!-- membuat halaman login menjadi halaman utama -->
         <activity
             android:name=".HomeActivity"
             android:exported="true">
