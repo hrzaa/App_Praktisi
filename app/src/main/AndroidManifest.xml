@@ -14,7 +14,13 @@
         android:theme="@style/Theme.App_Praktisi"
         tools:targetApi="31">
         <activity
+            android:name=".RopiqActivity"
+            android:exported="false" />
+        <activity
             android:name=".DinarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DewaActivity"
             android:exported="false" />
         <activity
             android:name=".HarezaActivity"
