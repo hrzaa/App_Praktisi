@@ -15,7 +15,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/back"
+            android:id="@+id/btnback"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/ic_baseline_arrow_back_ios_24" />
@@ -30,13 +30,13 @@
             android:layout_width="match_parent"
             android:layout_height="570dp"
             android:layout_marginTop="76dp"
-            android:background="@drawable/bg" />
+            android:background="@drawable/bg3" />
 
         <ImageView
             android:id="@+id/img"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:src="@drawable/profilee" />
+            android:src="@drawable/foto" />
 
         <TextView
             android:layout_width="match_parent"
